@@ -180,3 +180,40 @@ nav{
     height: 364px;
     border-radius: 48px;
 }
+
+/*-------------------------------------newsletter  */
+.newsletter{
+    display: flex;
+    margin: 0 150px 92px;
+    justify-content: space-between;
+}
+.newsletter-title{
+    font-size: 81px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    margin: 200px 200px 115px 0;
+}
+.form-info input[type="text"], .form-info input[type="email"]{
+    width: 451px;
+    height: 64px;
+    border: #D6DDED solid 1px;
+    border-radius: 10px;
+    color: #757575;
+    padding: 0 18px;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 24px;
+}
+textarea{
+    width: 451px;
+    height: 160px;
+    border: #D6DDED solid 1px;
+    border-radius: 10px;
+    color: #757575;
+    padding: 18px 30px;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 34px;
+    resize: none;
+    font-family: 'Times New Roman', Times, serif;
+}
