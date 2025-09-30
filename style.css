@@ -154,7 +154,7 @@ nav{
     margin-top: 0;
     margin-bottom: 4px;
 }
-/*-----------------------------------------get start  */
+/*----------------------------------------- get start  */
 
 .get-start{
     margin: 0 150px 92px;
@@ -181,7 +181,7 @@ nav{
     border-radius: 48px;
 }
 
-/*-------------------------------------newsletter  */
+/*------------------------------------- newsletter  */
 .newsletter{
     display: flex;
     margin: 0 150px 92px;
@@ -194,18 +194,18 @@ nav{
     margin: 200px 200px 115px 0;
 }
 .form-info input[type="text"], .form-info input[type="email"]{
-    width: 451px;
-    height: 64px;
+    width: 497px;
+    height: 70px;
     border: #D6DDED solid 1px;
     border-radius: 10px;
     color: #757575;
-    padding: 0 18px;
+    padding: 0 30px;
     font-size: 18px;
     display: block;
     margin-bottom: 24px;
 }
 textarea{
-    width: 451px;
+    width: 497px;
     height: 160px;
     border: #D6DDED solid 1px;
     border-radius: 10px;
@@ -217,3 +217,37 @@ textarea{
     resize: none;
     font-family: 'Times New Roman', Times, serif;
 }
+
+/*------------------------------------------- footer  */
+
+.footer{
+    background-color: rgba(255, 255, 255, 1);
+    border-top: #D6DDED solid 1px;
+    padding: 50px 150px;
+    text-align: center;
+    padding: 104px 455px;
+}
+.footer-title{
+    color: rgba(78, 71, 255, 1);
+    font-size: 100px;
+    font-weight: bolder;
+    margin: 0;
+}
+.footer-des{
+    color: rgba(137, 135, 161, 1);
+}
+
+.footer-links ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 0 24px;
+}
+.footer-links ul li{
+    list-style: none;
+}
+.footer-links ul li a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+}
+
